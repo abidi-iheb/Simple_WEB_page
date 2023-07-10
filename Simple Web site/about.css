@@ -1,0 +1,36 @@
+/* Set background color */
+body {
+    background-color: #f5e9e2;
+  }
+  
+  /* Set font size and color for headings */
+  h1, h2 {
+    font-size: 3rem;
+    color: #1e2022;
+  }
+  
+  /* Set font size and color for paragraph text */
+  p {
+    font-size: 1.5rem;
+    color: #4f5d75;
+  }
+  
+  /* Style the page title */
+  .page-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #c94c4c;
+  }
+  
+  /* Style the content section */
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echri Terba7 SHOP</title>
+  <link rel ="icon" href="/icone.png" type="image/png">
+  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jscode.js"></script>
+ 
+  
+</head>
+
+<body>
+ 
+  <header>
+    <title >Echri Terba7</title>
+    
+    <style>
+    
+  
+      h1 {
+        margin-left: 20%;
+        font-size: 3em;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #333;
+        text-align: center;
+        position: relative;
+        animation: move 3s infinite ease-in-out;
+      }
+  
+      @keyframes move {
+        0% {
+          transform: translateX(-20px);
+        }
+        50% {
+          transform: translateX(20px);
+        }
+        100% {
+          transform: translateX(-20px);
+        }
+      }
+    </style>
+    
+   
+    
+    <img id="panier" src="panier.png" alt="Image" class="image">
+    <h2 class="sh">Shop</h2>
+    <a id="icone"><img src="icone.png" alt=""></a>
+    <div id="sidebar">
+      <aside class="sidebar">
+        <button id="close-btn">&times;</button>
+        <h2>Categories</h2>
+        <div class="div">
+          <li><a  href="shop.html">jacket</a></li>
+          <li><a  href="shop.html">pull</a></li>
+          <li><a  href="shop.html">pantallon</a></li>
+        </div>
+       
+        <ul>
+          <div class="cart">
+            <h2 class="cart-title">Your cart</h2>
+            <div class="cart-content">
+              <div class="cart-box">
+                <img src="1.jpg" alt="" class="cart-img">
+                <div class="detail-box">
+                  <div class="cart-product-title">jacket</div>
+                  <div class="cart-price">40Dt</div>
+                  <input type="number" value="1" class="cart-quantity">
+                </div>
+                <!--remove cart-->
+                <i class="bx bxs-trash-alt cart-remove"></i>
+              </div>
+            </div>
+            <!--total-->
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">0dt</div>
+            </div>
+            <!--buy-->
+            <button type="button" class="btn-buy">Nechri</button>
+            <i class="bx bx-x" id="close-cart"></i>
+      
+          </div>
+          
+        
+      
+        </ul>
+      </aside>
+    </div>
+    <h1><a href="index.html">Echri Terba7</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+ 
+  <main>
+    <div class="product-contetnt">
+      
+
+
+    <section id="jackets" class="product-category">
+      <!-- jacket products go here -->
+      
+    <section class="products">
+      <article class="product">
+        <img src="1.jpg" alt="Product Image">
+        <h3>pulle</h3>
+        <p>EST Produit</p>
+        <span class="price">dt40</span>
+        <button>Add to Cart</button>
+      </article>
+
+
+
+    </section>
+    
+    <section id="pants" class="product-category">
+      <!-- pants products go here -->
+      <article class="product">
+        <img src="3.jpg" alt="Product Image">
+        <h3>jackette</h3>
+        <p>Couton</p>
+        <span class="price">30Dt</span>
+        <button>Add to Cart</button>
+      </article>
+      
+      <article class="product">
+        <img src="2.jpg" alt="Product Image">
+        <h3>pulle</h3>
+        <p>Couton</p>
+        <span class="price">40dt</span>
+        <button>Add to Cart</button>
+      </article>
+      <section class="product">
+        <img src="33.jpg" alt="Product Image">
+        <h2>pantallon</h2>
+        <p>Sport , puma</p>
+        <span class="price">40dt</span>
+        <button>Add to Cart</button>
+      </section>
+    
+
+
+
+
+    </section>
+    
+    <section id="shirts" class="product-category">
+      <!-- shirt products go here -->
+      <article class="product">
+        <img src="4.jpg" alt="Product Image">
+        <h3>jackette</h3>
+        <p>EST , Rouge</p>
+        <span class="price">20dt</span>
+        <button>Add to Cart</button>
+      </article>
+      <section class="product">
+        <img src="22.jpg" alt="Product Image">
+        <h2>pantallon</h2>
+        <p>Sport , ADIDAS</p>
+        <span class="price">40dt</span>
+        <button>Add to Cart</button>
+      </section>
+      <section class="product">
+        <img src="11.jpg" alt="Product Image">
+        <h2>pantallon</h2>
+        <p>Sport</p>
+        <span class="price">40dt</span>
+        <button>Add to Cart</button>
+      </section>
+    </section>
+
+
+    
+  </div>
+    
+     
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 EchriTerba7. All rights reserved.</p>
+  </footer>
+</body>
+</html>
